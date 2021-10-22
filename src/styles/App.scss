@@ -1,0 +1,17 @@
+// CSS ASSETS
+@import './base/variables';
+@import './abstract/global';
+@import './mixins/mixins';
+
+.App{
+    background: $green;
+}
+
+// Pages
+@import './pages/homePage';
+@import './pages/productsPage';
+@import './pages/aboutPage';
+@import './pages/contactPage';
+
+// Components
+@import './shared/navigation';
