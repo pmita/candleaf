@@ -7,11 +7,12 @@
     background: $green;
 }
 
-// Pages
+// PAGES
 @import './pages/homePage';
 @import './pages/productsPage';
 @import './pages/aboutPage';
 @import './pages/contactPage';
 
-// Components
+// SHARED COMPONENTS
 @import './shared/navigation';
+@import './shared/footer';

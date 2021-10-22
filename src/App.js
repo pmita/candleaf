@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 // COMPONENTS
 import Navigation from './shared/Navigation/component';
+import Footer from './shared/Footer/component';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' exact component={About} />
           <Route path='/contact' exact component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
